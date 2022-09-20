@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>sniperleon&#39;s blog</title>
+  
+  
+  <link href="https://sniperleon.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://sniperleon.github.io/"/>
+  <updated>2022-09-20T16:47:19.368Z</updated>
+  <id>https://sniperleon.github.io/</id>
+  
+  <author>
+    <name>sniperleon</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown 語法</title>
+    <link href="https://sniperleon.github.io/2022/09/21/Test/"/>
+    <id>https://sniperleon.github.io/2022/09/21/Test/</id>
+    <published>2022-09-20T16:37:16.000Z</published>
+    <updated>2022-09-20T16:47:19.368Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="大標題"><a href="#大標題" class="headerlink" title="大標題"></a>大標題</h1><h2 id="次標題"><a href="#次標題" class="headerlink" title="次標題"></a>次標題</h2><h5 id="小標題"><a href="#小標題" class="headerlink" title="小標題"></a>小標題</h5><p><strong>粗體</strong></p><h5 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h5><ul><li>Iten 1</li><li>Item 2<ul><li>Iten 2a</li><li>Item 2b</li></ul></li></ul><h5 id="CheckBox"><a href="#CheckBox" class="headerlink" title="CheckBox"></a>CheckBox</h5><ul><li><input checked="" disabled="" type="checkbox"> This is a complete item</li><li><input disabled="" type="checkbox"> This is an incomplete item</li></ul><h5 id="區塊"><a href="#區塊" class="headerlink" title="區塊"></a>區塊</h5><p><code>Format one word or one line</code></p><span id="more"></span><h5 id="普通的程式碼區塊"><a href="#普通的程式碼區塊" class="headerlink" title="普通的程式碼區塊"></a>普通的程式碼區塊</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&#x27;Hello World!&#x27;);</span><br></pre></td></tr></table></figure><h5 id="指定語言"><a href="#指定語言" class="headerlink" title="指定語言"></a>指定語言</h5><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure><h5 id="在文章中插入-iframe。"><a href="#在文章中插入-iframe。" class="headerlink" title="在文章中插入 iframe。"></a>在文章中插入 iframe。</h5><iframe src="url" width="[width]" height="[height]" frameborder="0" loading="lazy" allowfullscreen></iframe><h5 id="在文章中插入指定大小的圖片。"><a href="#在文章中插入指定大小的圖片。" class="headerlink" title="在文章中插入指定大小的圖片。"></a>在文章中插入指定大小的圖片。</h5><img src="/path/to/image" class="[class names]" title="[width] [height] " alt="title text"><p><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLXR3L2RvY3MvdGFnLXBsdWdpbnM=">https://hexo.io/zh-tw/docs/tag-plugins<i class="fa fa-external-link-alt"></i></span></p>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;大標題&quot;&gt;&lt;a href=&quot;#大標題&quot; class=&quot;headerlink&quot; title=&quot;大標題&quot;&gt;&lt;/a&gt;大標題&lt;/h1&gt;&lt;h2 id=&quot;次標題&quot;&gt;&lt;a href=&quot;#次標題&quot; class=&quot;headerlink&quot; title=&quot;次標題&quot;&gt;&lt;/a&gt;次標題&lt;/h2&gt;&lt;h5 id=&quot;小標題&quot;&gt;&lt;a href=&quot;#小標題&quot; class=&quot;headerlink&quot; title=&quot;小標題&quot;&gt;&lt;/a&gt;小標題&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;粗體&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/a&gt;列表&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;Iten 1&lt;/li&gt;
+&lt;li&gt;Item 2&lt;ul&gt;
+&lt;li&gt;Iten 2a&lt;/li&gt;
+&lt;li&gt;Item 2b&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;CheckBox&quot;&gt;&lt;a href=&quot;#CheckBox&quot; class=&quot;headerlink&quot; title=&quot;CheckBox&quot;&gt;&lt;/a&gt;CheckBox&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; This is a complete item&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; This is an incomplete item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;區塊&quot;&gt;&lt;a href=&quot;#區塊&quot; class=&quot;headerlink&quot; title=&quot;區塊&quot;&gt;&lt;/a&gt;區塊&lt;/h5&gt;&lt;p&gt;&lt;code&gt;Format one word or one line&lt;/code&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://sniperleon.github.io/2022/09/21/hello-world/"/>
+    <id>https://sniperleon.github.io/2022/09/21/hello-world/</id>
+    <published>2022-09-20T16:11:26.782Z</published>
+    <updated>2022-09-20T16:11:26.782Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9oZXhvLmlvLw==&quot;&gt;Hexo&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;! This is your very</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Welcome to the NexT Organization!</title>
+    <link href="https://sniperleon.github.io/2020/03/01/hexo-theme-next/"/>
+    <id>https://sniperleon.github.io/2020/03/01/hexo-theme-next/</id>
+    <published>2020-03-01T04:00:00.000Z</published>
+    <updated>2022-09-20T16:16:13.146Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to the <a href="/docs/">NexT</a> documentation site! NexT is a high quality elegant theme for <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>. It is crafted from scratch, with love.</p><h3 id="User-Guide"><a href="#User-Guide" class="headerlink" title="User Guide"></a>User Guide</h3><p>It’s easy to set up NexT theme. Just follow <a href="/docs/getting-started/">documentation</a> and create your personal website!</p><h3 id="Feedback"><a href="#Feedback" class="headerlink" title="Feedback"></a>Feedback</h3><ul><li>Visit the <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvYXdlc29tZS1uZXh0">Awesome NexT<i class="fa fa-external-link-alt"></i></span> list to share plugins and tutorials with other users.</li><li>Join our <span class="exturl" data-url="aHR0cHM6Ly9naXR0ZXIuaW0vaGV4by1uZXh0">Gitter<i class="fa fa-external-link-alt"></i></span> chats.</li><li><span class="exturl" data-url="aHR0cHM6Ly9jcm93ZGluLmNvbS9wcm9qZWN0L2hleG8tdGhlbWUtbmV4dA==">Add or improve translation<i class="fa fa-external-link-alt"></i></span> in few seconds.</li><li>Report a bug in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2lzc3Vlcy9uZXc/YXNzaWduZWVzPSZsYWJlbHM9QnVnJnRlbXBsYXRlPWJ1Zy1yZXBvcnQubWQ=">GitHub Issues<i class="fa fa-external-link-alt"></i></span>.</li><li>Request a new feature on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2lzc3Vlcy9uZXc/YXNzaWduZWVzPSZsYWJlbHM9RmVhdHVyZStSZXF1ZXN0JnRlbXBsYXRlPWZlYXR1cmUtcmVxdWVzdC5tZA==">GitHub<i class="fa fa-external-link-alt"></i></span>.</li><li>Vote for <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2lzc3Vlcz9xPWlzOm9wZW4raXM6aXNzdWUrbGFiZWw6JTIyRmVhdHVyZStSZXF1ZXN0JTIy">popular feature requests<i class="fa fa-external-link-alt"></i></span>.</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to the &lt;a href=&quot;/docs/&quot;&gt;NexT&lt;/a&gt; documentation site! NexT is a high quality elegant theme for &lt;span class=&quot;exturl&quot; data-url=&quot;aHR0</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

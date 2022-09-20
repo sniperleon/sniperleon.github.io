@@ -22,27 +22,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"sniperleon.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.13.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"default"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.13.0/config.min.js"></script>
 
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://sniperleon.github.io/2022/09/21/hello-world/">
+    <meta name="description" content="NexT User Docs – Third-party Service Integration – Chat Services">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Chat Services">
+<meta property="og:url" content="https://sniperleon.github.io/docs/third-party-services/chat-services">
 <meta property="og:site_name" content="sniperleon&#39;s blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="NexT User Docs – Third-party Service Integration – Chat Services">
 <meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2022-09-20T16:11:26.782Z">
-<meta property="article:modified_time" content="2022-09-20T16:11:26.782Z">
+<meta property="article:published_time" content="2022-09-20T16:16:13.168Z">
+<meta property="article:modified_time" content="2022-09-20T16:16:13.168Z">
 <meta property="article:author" content="sniperleon">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://sniperleon.github.io/2022/09/21/hello-world/">
+<link rel="canonical" href="https://sniperleon.github.io/docs/third-party-services/chat-services">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"https://sniperleon.github.io/2022/09/21/hello-world/","path":"2022/09/21/hello-world/","title":"Hello World"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-TW","comments":true,"permalink":"https://sniperleon.github.io/docs/third-party-services/chat-services","path":"docs/third-party-services/chat-services.html","title":"Chat Services"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Hello World | sniperleon's blog</title>
+<title>Chat Services | sniperleon's blog
+</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108155018-3"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"UA-108155018-3","only_pageview":false}</script>
@@ -149,7 +150,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Chatra"><span class="nav-number">1.</span> <span class="nav-text">Chatra</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Tidio"><span class="nav-number">2.</span> <span class="nav-text">Tidio</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Gitter"><span class="nav-number">3.</span> <span class="nav-text">Gitter</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -212,116 +213,115 @@
 </noscript>
 
 
-    <div class="main-inner post posts-expand">
+    <div class="main-inner page posts-expand">
+    <ul class="sub-menu menu">
+      
+  <li class="menu-item menu-item-getting-started"><a href="/docs/getting-started/" rel="section"><i class="fa fa-flag fa-fw"></i>Getting Started</a></li>
 
 
-  
+      
+  <li class="menu-item menu-item-theme-settings"><a href="/docs/theme-settings/" rel="section"><i class="fa fa-star fa-fw"></i>Theme Settings</a></li>
 
 
-<div class="post-block">
-  
-  
+      
+  <li class="menu-item menu-item-third-party-services"><a href="/docs/third-party-services/" rel="section"><i class="fa fa-puzzle-piece fa-fw"></i>Third Party Services</a></li>
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://sniperleon.github.io/2022/09/21/hello-world/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="sniperleon">
-    </span>
+      
+  <li class="menu-item menu-item-tag-plugins"><a href="/docs/tag-plugins/" rel="section"><i class="fa fa-rocket fa-fw"></i>Tag Plugins</a></li>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="sniperleon's blog">
-      <meta itemprop="description" content="">
-    </span>
 
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="Hello World | sniperleon's blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          Hello World<span class="exturl post-edit-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvdGhlbWUtbmV4dC1kb2NzL2VkaXQvbWFzdGVyL3NvdXJjZS9fcG9zdHMvaGVsbG8td29ybGQubWQ=" title="編輯"><i class="fa fa-pen-nib"></i></span>
-        </h1>
+      
+  <li class="menu-item menu-item-advanced-settings"><a href="/docs/advanced-settings/" rel="section"><i class="fa fa-cog fa-fw"></i>Advanced Settings</a></li>
 
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">發表於</span>
 
-      <time title="創建時間：2022-09-21 00:11:26" itemprop="dateCreated datePublished" datetime="2022-09-21T00:11:26+08:00">2022-09-21</time>
-    </span>
+      
+  <li class="menu-item menu-item-troubleshooting"><a href="/docs/troubleshooting" rel="section"><i class="fa fa-life-ring fa-fw"></i>Troubleshooting</a></li>
 
-  
-  
-  <span class="post-meta-item">
+
+    </ul>
+    <ul class="sub-menu menu">
+      
+  <li class="menu-item menu-item-math-equations"><a href="/docs/third-party-services/math-equations" rel="section"><i class="fa fa-square-root-alt fa-fw"></i>Math Equations</a></li>
+
+
+      
+  <li class="menu-item menu-item-comment-systems"><a href="/docs/third-party-services/comments" rel="section"><i class="fa fa-comment-alt fa-fw"></i>Comment Systems</a></li>
+
+
+      
+  <li class="menu-item menu-item-post-widgets"><a href="/docs/third-party-services/post-widgets" rel="section"><i class="fa fa-gift fa-fw"></i>Post Widgets</a></li>
+
+
+      
+  <li class="menu-item menu-item-statistics-and-analytics"><a href="/docs/third-party-services/statistics-and-analytics" rel="section"><i class="fa fa-chart-pie fa-fw"></i>Statistics and Analytics</a></li>
+
+
+      
+  <li class="menu-item menu-item-search-services"><a href="/docs/third-party-services/search-services" rel="section"><i class="fab fa-algolia fa-fw"></i>Search Services</a></li>
+
+
+      
+  <li class="menu-item menu-item-chat-services"><a href="/docs/third-party-services/chat-services" rel="section"><i class="fa fa-comments fa-fw"></i>Chat Services</a></li>
+
+
+      
+  <li class="menu-item menu-item-external-libraries"><a href="/docs/third-party-services/external-libraries" rel="section"><i class="fa fa-lightbulb fa-fw"></i>External Libraries</a></li>
+
+
+    </ul>
+
+
     
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus：</span>
     
-    <a title="disqus" href="/2022/09/21/hello-world/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2022/09/21/hello-world/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
+    
+    <div class="post-block" lang="zh-TW"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">Chat Services<span class="exturl post-edit-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvdGhlbWUtbmV4dC1kb2NzL2VkaXQvbWFzdGVyL3NvdXJjZS9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NoYXQtc2VydmljZXMubWQ=" title="編輯"><i class="fa fa-pen-nib"></i></span>
+</h1>
+
+<div class="post-meta-container">
+    <div class="post-description">NexT User Docs – Third-party Service Integration – Chat Services</div>
+  <ul class="breadcrumb">
+            <li><a href="/docs/">DOCS</a></li>
+            <li><a href="/docs/third-party-services/">THIRD PARTY SERVICES</a></li>
+            <li>CHAT SERVICES</li>
+  </ul>
 </div>
 
-        </div>
-      </header>
+</header>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-        <p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+      
+      
+      <div class="post-body">
+          <h3 id="Chatra"><a href="#Chatra" class="headerlink" title="Chatra"></a>Chatra</h3><p><span class="exturl" data-url="aHR0cHM6Ly9jaGF0cmEuY29tLw==">Chatra<i class="fa fa-external-link-alt"></i></span> is a live chat messenger app for your website.</p>
+<div class="tabs" id="chatra"><ul class="nav-tabs"><li class="tab active"><a href="#chatra-1">Enable Chatra →</a></li><li class="tab"><a href="#chatra-2">Activate sidebar button</a></li></ul><div class="tab-content"><div class="tab-pane active" id="chatra-1"><p>Visit <span class="exturl" data-url="aHR0cHM6Ly9hcHAuY2hhdHJhLmlvL3NldHRpbmdzL2dlbmVyYWw=">Dashboard<i class="fa fa-external-link-alt"></i></span> to get your ChatraID.</p>
+<figure class="highlight yml"><figcaption><span>NexT config file</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Chatra Support</span></span><br><span class="line"><span class="comment"># See: https://chatra.com</span></span><br><span class="line"><span class="comment"># Dashboard: https://app.chatra.io/settings/general</span></span><br><span class="line"><span class="attr">chatra:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">async:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">id:</span> <span class="string">&lt;ChatraID&gt;</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="chatra-2"><p>After Chatra enabled, you can set <code>chat.enable</code> to <code>true</code> in <mark class="label primary">NexT config file</mark>.</p>
+<figure class="highlight yml"><figcaption><span>NexT config file</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># A button to open designated chat widget in sidebar.</span></span><br><span class="line"><span class="comment"># Firstly, you need enable the chat service you want to activate its sidebar button.</span></span><br><span class="line"><span class="attr">chat:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">icon:</span> <span class="string">fa</span> <span class="string">fa-comment</span></span><br><span class="line">  <span class="attr">text:</span> <span class="string">Chat</span></span><br></pre></td></tr></table></figure></div></div></div>
 
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="Tidio"><a href="#Tidio" class="headerlink" title="Tidio"></a>Tidio</h3><p><span class="exturl" data-url="aHR0cHM6Ly93d3cudGlkaW8uY29tLw==">Tidio<i class="fa fa-external-link-alt"></i></span> is a live chat messenger app for your website.</p>
+<div class="tabs" id="tidio"><ul class="nav-tabs"><li class="tab active"><a href="#tidio-1">Enable Tidio →</a></li><li class="tab"><a href="#tidio-2">Activate sidebar button</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tidio-1"><p>Visit <span class="exturl" data-url="aHR0cHM6Ly93d3cudGlkaW8uY29tL3BhbmVsL2Rhc2hib2FyZA==">Dashboard<i class="fa fa-external-link-alt"></i></span> to get your Public Key.</p>
+<figure class="highlight yml"><figcaption><span>NexT config file</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Tidio Support</span></span><br><span class="line"><span class="comment"># See: https://www.tidio.com</span></span><br><span class="line"><span class="comment"># Dashboard: https://www.tidio.com/panel/dashboard</span></span><br><span class="line"><span class="attr">tidio:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">key:</span> <span class="string">&lt;Publick</span> <span class="string">Key&gt;</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="tidio-2"><p>After Tidio enabled, you can set <code>chat.enable</code> to <code>true</code> in <mark class="label primary">NexT config file</mark>.</p>
+<figure class="highlight yml"><figcaption><span>NexT config file</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># A button to open designated chat widget in sidebar.</span></span><br><span class="line"><span class="comment"># Firstly, you need enable the chat service you want to activate its sidebar button.</span></span><br><span class="line"><span class="attr">chat:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">icon:</span> <span class="string">fa</span> <span class="string">fa-comment</span></span><br><span class="line">  <span class="attr">text:</span> <span class="string">Chat</span></span><br></pre></td></tr></table></figure></div></div></div>
 
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h3 id="Gitter"><a href="#Gitter" class="headerlink" title="Gitter"></a>Gitter</h3><p><span class="exturl" data-url="aHR0cHM6Ly9naXR0ZXIuaW0v">Gitter<i class="fa fa-external-link-alt"></i></span> is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery.</p>
+<div class="tabs" id="gitter"><ul class="nav-tabs"><li class="tab active"><a href="#gitter-1">Enable Gitter →</a></li><li class="tab"><a href="#gitter-2">Activate sidebar button</a></li></ul><div class="tab-content"><div class="tab-pane active" id="gitter-1"><p>You need to create a community, then create a webapp room under that community.</p>
+<figure class="highlight yml"><figcaption><span>NexT config file</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Gitter Support</span></span><br><span class="line"><span class="comment"># For more information: https://gitter.im</span></span><br><span class="line"><span class="attr">gitter:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">room:</span> <span class="string">&lt;Community&gt;/&lt;Room</span> <span class="string">Name&gt;</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="gitter-2"><p>After Gitter enabled, you can set <code>chat.enable</code> to <code>true</code> in <mark class="label primary">NexT config file</mark>.</p>
+<figure class="highlight yml"><figcaption><span>NexT config file</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># A button to open designated chat widget in sidebar.</span></span><br><span class="line"><span class="comment"># Firstly, you need enable the chat service you want to activate its sidebar button.</span></span><br><span class="line"><span class="attr">chat:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">icon:</span> <span class="string">fa</span> <span class="string">fa-comment</span></span><br><span class="line">  <span class="attr">text:</span> <span class="string">Chat</span></span><br></pre></td></tr></table></figure></div></div></div>
 
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
-
+      </div>
+      
+      
+      
     </div>
+  <ul class="breadcrumb">
+            <li><a href="/docs/">DOCS</a></li>
+            <li><a href="/docs/third-party-services/">THIRD PARTY SERVICES</a></li>
+            <li>CHAT SERVICES</li>
+  </ul>
 
     
     
-    
-
-    <footer class="post-footer">
-
-        
-
-          <div class="post-nav">
-            <div class="post-nav-item">
-                <a href="/2020/03/01/hexo-theme-next/" rel="prev" title="Welcome to the NexT Organization!">
-                  <i class="fa fa-chevron-left"></i> Welcome to the NexT Organization!
-                </a>
-            </div>
-            <div class="post-nav-item">
-                <a href="/2022/09/21/Test/" rel="next" title="Markdown 語法">
-                  Markdown 語法 <i class="fa fa-chevron-right"></i>
-                </a>
-            </div>
-          </div>
-    </footer>
-  </article>
-</div>
-
-
-
-
 
 
     

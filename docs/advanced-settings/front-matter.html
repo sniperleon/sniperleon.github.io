@@ -22,27 +22,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"sniperleon.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.13.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"default"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.13.0/config.min.js"></script>
 
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://sniperleon.github.io/2022/09/21/hello-world/">
+    <meta name="description" content="NexT User Docs – Theme Settings - Front Matter">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Front Matter">
+<meta property="og:url" content="https://sniperleon.github.io/docs/advanced-settings/front-matter">
 <meta property="og:site_name" content="sniperleon&#39;s blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="NexT User Docs – Theme Settings - Front Matter">
 <meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2022-09-20T16:11:26.782Z">
-<meta property="article:modified_time" content="2022-09-20T16:11:26.782Z">
+<meta property="article:published_time" content="2022-09-20T16:16:13.161Z">
+<meta property="article:modified_time" content="2022-09-20T16:16:13.161Z">
 <meta property="article:author" content="sniperleon">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://sniperleon.github.io/2022/09/21/hello-world/">
+<link rel="canonical" href="https://sniperleon.github.io/docs/advanced-settings/front-matter">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"https://sniperleon.github.io/2022/09/21/hello-world/","path":"2022/09/21/hello-world/","title":"Hello World"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-TW","comments":true,"permalink":"https://sniperleon.github.io/docs/advanced-settings/front-matter","path":"docs/advanced-settings/front-matter.html","title":"Front Matter"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Hello World | sniperleon's blog</title>
+<title>Front Matter | sniperleon's blog
+</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108155018-3"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"UA-108155018-3","only_pageview":false}</script>
@@ -149,7 +150,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Settings-amp-Their-Default-Values"><span class="nav-number">1.</span> <span class="nav-text">Settings &amp; Their Default Values</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Undocumented-Front-matter-Variables"><span class="nav-number">2.</span> <span class="nav-text">Undocumented Front-matter Variables</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -212,116 +213,205 @@
 </noscript>
 
 
-    <div class="main-inner post posts-expand">
+    <div class="main-inner page posts-expand">
+    <ul class="sub-menu menu">
+      
+  <li class="menu-item menu-item-getting-started"><a href="/docs/getting-started/" rel="section"><i class="fa fa-flag fa-fw"></i>Getting Started</a></li>
 
 
-  
+      
+  <li class="menu-item menu-item-theme-settings"><a href="/docs/theme-settings/" rel="section"><i class="fa fa-star fa-fw"></i>Theme Settings</a></li>
 
 
-<div class="post-block">
-  
-  
+      
+  <li class="menu-item menu-item-third-party-services"><a href="/docs/third-party-services/" rel="section"><i class="fa fa-puzzle-piece fa-fw"></i>Third Party Services</a></li>
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://sniperleon.github.io/2022/09/21/hello-world/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="sniperleon">
-    </span>
+      
+  <li class="menu-item menu-item-tag-plugins"><a href="/docs/tag-plugins/" rel="section"><i class="fa fa-rocket fa-fw"></i>Tag Plugins</a></li>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="sniperleon's blog">
-      <meta itemprop="description" content="">
-    </span>
 
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="Hello World | sniperleon's blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          Hello World<span class="exturl post-edit-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvdGhlbWUtbmV4dC1kb2NzL2VkaXQvbWFzdGVyL3NvdXJjZS9fcG9zdHMvaGVsbG8td29ybGQubWQ=" title="編輯"><i class="fa fa-pen-nib"></i></span>
-        </h1>
+      
+  <li class="menu-item menu-item-advanced-settings"><a href="/docs/advanced-settings/" rel="section"><i class="fa fa-cog fa-fw"></i>Advanced Settings</a></li>
 
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">發表於</span>
 
-      <time title="創建時間：2022-09-21 00:11:26" itemprop="dateCreated datePublished" datetime="2022-09-21T00:11:26+08:00">2022-09-21</time>
-    </span>
+      
+  <li class="menu-item menu-item-troubleshooting"><a href="/docs/troubleshooting" rel="section"><i class="fa fa-life-ring fa-fw"></i>Troubleshooting</a></li>
 
-  
-  
-  <span class="post-meta-item">
+
+    </ul>
+    <ul class="sub-menu menu">
+      
+  <li class="menu-item menu-item-vendors"><a href="/docs/advanced-settings/vendors" rel="section"><i class="fa fa-plug fa-fw"></i>Vendors</a></li>
+
+
+      
+  <li class="menu-item menu-item-custom-files"><a href="/docs/advanced-settings/custom-files" rel="section"><i class="fa fa-palette fa-fw"></i>Custom Files</a></li>
+
+
+      
+  <li class="menu-item menu-item-injects"><a href="/docs/advanced-settings/injects" rel="section"><i class="fa fa-layer-group fa-fw"></i>Injects</a></li>
+
+
+      
+  <li class="menu-item menu-item-front-matter"><a href="/docs/advanced-settings/front-matter" rel="section"><i class="fa fa-edit fa-fw"></i>Front Matter</a></li>
+
+
+    </ul>
+
+
     
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus：</span>
     
-    <a title="disqus" href="/2022/09/21/hello-world/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2022/09/21/hello-world/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
+    
+    <div class="post-block" lang="zh-TW"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">Front Matter<span class="exturl post-edit-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvdGhlbWUtbmV4dC1kb2NzL2VkaXQvbWFzdGVyL3NvdXJjZS9kb2NzL2FkdmFuY2VkLXNldHRpbmdzL2Zyb250LW1hdHRlci5tZA==" title="編輯"><i class="fa fa-pen-nib"></i></span>
+</h1>
+
+<div class="post-meta-container">
+    <div class="post-description">NexT User Docs – Theme Settings - Front Matter</div>
+  <ul class="breadcrumb">
+            <li><a href="/docs/">DOCS</a></li>
+            <li><a href="/docs/advanced-settings/">ADVANCED SETTINGS</a></li>
+            <li>FRONT MATTER</li>
+  </ul>
 </div>
 
-        </div>
-      </header>
+</header>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-        <p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation<i class="fa fa-external-link-alt"></i></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting<i class="fa fa-external-link-alt"></i></span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub<i class="fa fa-external-link-alt"></i></span>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+      
+      
+      <div class="post-body">
+          <blockquote>
+<p>Front-matter is a block of YAML or JSON at the beginning of the file that is used to configure settings for your writings. Front-matter is terminated by three dashes when written in YAML or three semicolons when written in JSON.<br>— from <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZnJvbnQtbWF0dGVy">Hexo site<i class="fa fa-external-link-alt"></i></span>.</p>
+</blockquote>
+<p><strong>YAML</strong></p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">Hello</span> <span class="string">World</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2013</span><span class="string">/7/13</span> <span class="number">20</span><span class="string">:46:25</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p><strong>JSON</strong></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Hello World&quot;</span><span class="punctuation">,</span></span><br><span class="line"><span class="attr">&quot;date&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2013/7/13 20:46:25&quot;</span></span><br><span class="line">;;;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>Next extends and provide more variables. It allows users to configure a single page.</p>
+<h3 id="Settings-amp-Their-Default-Values"><a href="#Settings-amp-Their-Default-Values" class="headerlink" title="Settings &amp; Their Default Values"></a>Settings &amp; Their Default Values</h3><table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>author</code></td>
+<td><code>string</code></td>
+<td>Author name for post copyright</td>
+<td><code>author</code> in Hexo <code>_config.yml</code></td>
+</tr>
+<tr>
+<td><code>post_link</code></td>
+<td><code>string</code></td>
+<td>Post link</td>
+<td>None</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td><code>string</code></td>
+<td>Docs <a href="/docs/theme-settings/posts.html#Preamble-Text">here</a></td>
+<td>None</td>
+</tr>
+<tr>
+<td><code>direction</code></td>
+<td><code>string</code></td>
+<td>Available value: <code>rtl</code></td>
+<td>None</td>
+</tr>
+<tr>
+<td><code>header</code></td>
+<td><code>boolean</code></td>
+<td>Whether to display the post header in index page</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>mathjax</code></td>
+<td><code>boolean</code></td>
+<td>MathJax support</td>
+<td><code>math.every_page</code> in <code>_config.yml</code></td>
+</tr>
+<tr>
+<td><code>sidebar</code></td>
+<td><code>boolean</code></td>
+<td>Whether the sidebar will be shown</td>
+<td>Depends on <code>sidebar.display</code> in <code>_config.yml</code></td>
+</tr>
+<tr>
+<td><code>copyright</code></td>
+<td><code>boolean</code></td>
+<td>Whether to display copyright notices below the post with <code>theme.creative_commons.license</code> and <code>theme.creative_commons.post</code> enabled</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>sticky</code></td>
+<td><code>number</code></td>
+<td>Pin the post to the top of the index page. <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvLWdlbmVyYXRvci1pbmRleA==">hexo-generator-index<i class="fa fa-external-link-alt"></i></span> plugin required</td>
+<td>0</td>
+</tr>
+<tr>
+<td><code>quicklink</code></td>
+<td><code>object</code> (1)</td>
+<td>Quicklink support</td>
+<td>From <code>_config.yml</code></td>
+</tr>
+<tr>
+<td><code>reward_settings</code></td>
+<td><code>object</code> (1)</td>
+<td>Reward settings</td>
+<td>From <code>_config.yml</code></td>
+</tr>
+<tr>
+<td><code>toc</code></td>
+<td><code>object</code> (1)</td>
+<td>Table of Contents in the sidebar</td>
+<td>From <code>_config.yml</code></td>
+</tr>
+</tbody></table>
+<p>(1): They have the same structure as the options in <mark class="label primary">NexT config file</mark>.</p>
+<p><strong>Example</strong></p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">number:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">max_depth:</span> <span class="number">3</span></span><br><span class="line"><span class="attr">reward_settings:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">comment:</span> <span class="string">Buy</span> <span class="string">me</span> <span class="string">a</span> <span class="string">coffee</span></span><br><span class="line"><span class="attr">quicklink:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">delay:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">timeout:</span> <span class="number">3000</span></span><br><span class="line">  <span class="attr">priority:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="Undocumented-Front-matter-Variables"><a href="#Undocumented-Front-matter-Variables" class="headerlink" title="Undocumented Front-matter Variables"></a>Undocumented Front-matter Variables</h3><p>The following variables are not mentioned in the Hexo documentation, but are required by <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvLXRoZW1lLXVuaXQtdGVzdA==">hexo-theme-unit-test<i class="fa fa-external-link-alt"></i></span>.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Type</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>link</code></td>
+<td><code>string</code></td>
+<td><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvLXRoZW1lLXVuaXQtdGVzdC9ibG9iL21hc3Rlci9zb3VyY2UvX3Bvc3RzL2xpbmstcG9zdC5tZA==">link-post<i class="fa fa-external-link-alt"></i></span></td>
+</tr>
+<tr>
+<td><code>photos</code></td>
+<td><code>array</code></td>
+<td><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvLXRoZW1lLXVuaXQtdGVzdC9ibG9iL21hc3Rlci9zb3VyY2UvX3Bvc3RzL2dhbGxlcnktcG9zdC5tZA==">gallery-post<i class="fa fa-external-link-alt"></i></span></td>
+</tr>
+</tbody></table>
 
-<p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
-
+      </div>
+      
+      
+      
     </div>
+  <ul class="breadcrumb">
+            <li><a href="/docs/">DOCS</a></li>
+            <li><a href="/docs/advanced-settings/">ADVANCED SETTINGS</a></li>
+            <li>FRONT MATTER</li>
+  </ul>
 
     
     
-    
-
-    <footer class="post-footer">
-
-        
-
-          <div class="post-nav">
-            <div class="post-nav-item">
-                <a href="/2020/03/01/hexo-theme-next/" rel="prev" title="Welcome to the NexT Organization!">
-                  <i class="fa fa-chevron-left"></i> Welcome to the NexT Organization!
-                </a>
-            </div>
-            <div class="post-nav-item">
-                <a href="/2022/09/21/Test/" rel="next" title="Markdown 語法">
-                  Markdown 語法 <i class="fa fa-chevron-right"></i>
-                </a>
-            </div>
-          </div>
-    </footer>
-  </article>
-</div>
-
-
-
-
 
 
     
