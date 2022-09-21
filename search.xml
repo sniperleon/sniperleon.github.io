@@ -29,6 +29,9 @@
 
 <p><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLXR3L2RvY3MvdGFnLXBsdWdpbnM=">https://hexo.io/zh-tw/docs/tag-plugins<i class="fa fa-external-link-alt"></i></span></p>
 ]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -47,6 +50,11 @@
 
 <p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment<i class="fa fa-external-link-alt"></i></span></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>install_hexo_next</title>
+    <url>/2022/09/21/install-hexo-next/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Welcome to the NexT Organization!</title>
