@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Markdown 語法</title>
+    <url>/2022/09/21/Test/</url>
+    <content><![CDATA[<h1 id="大標題"><a href="#大標題" class="headerlink" title="大標題"></a>大標題</h1><h2 id="次標題"><a href="#次標題" class="headerlink" title="次標題"></a>次標題</h2><h5 id="小標題"><a href="#小標題" class="headerlink" title="小標題"></a>小標題</h5><p><strong>粗體</strong></p>
+<h5 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h5><ul>
+<li>Iten 1</li>
+<li>Item 2<ul>
+<li>Iten 2a</li>
+<li>Item 2b</li>
+</ul>
+</li>
+</ul>
+<h5 id="CheckBox"><a href="#CheckBox" class="headerlink" title="CheckBox"></a>CheckBox</h5><ul>
+<li><input checked="" disabled="" type="checkbox"> This is a complete item</li>
+<li><input disabled="" type="checkbox"> This is an incomplete item</li>
+</ul>
+<h5 id="區塊"><a href="#區塊" class="headerlink" title="區塊"></a>區塊</h5><p><code>Format one word or one line</code></p>
+<span id="more"></span>
+
+<h5 id="普通的程式碼區塊"><a href="#普通的程式碼區塊" class="headerlink" title="普通的程式碼區塊"></a>普通的程式碼區塊</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">alert(&#x27;Hello World!&#x27;);</span><br></pre></td></tr></table></figure>
+
+<h5 id="指定語言"><a href="#指定語言" class="headerlink" title="指定語言"></a>指定語言</h5><figure class="highlight objc"><table><tr><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>
+
+<h5 id="在文章中插入-iframe。"><a href="#在文章中插入-iframe。" class="headerlink" title="在文章中插入 iframe。"></a>在文章中插入 iframe。</h5><iframe src="https://www.google.com/" width="[200]" height="[200]" frameborder="0" loading="lazy" allowfullscreen></iframe>
+
+<h5 id="在文章中插入指定大小的圖片。"><a href="#在文章中插入指定大小的圖片。" class="headerlink" title="在文章中插入指定大小的圖片。"></a>在文章中插入指定大小的圖片。</h5><img src="/2022/09/21/Test/gif2.gif" class="" title="title text">
+
+<img src="https://sandipanweb.files.wordpress.com/2020/12/0ef15-1z9raf0scbvc9civ9whboog.png" class="[Test]" width="200" height="200" title="title text">
+
+<img src="/2022/09/21/Test/gif2.gif" class="[Test]" width="200" height="200" title="title text">
+
+<p><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLXR3L2RvY3MvdGFnLXBsdWdpbnM=">https://hexo.io/zh-tw/docs/tag-plugins<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>Program</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Welcome to the NexT Organization!</title>
     <url>/2020/03/01/hexo-theme-next/</url>
     <content><![CDATA[<p>Welcome to the <a href="/docs/">NexT</a> documentation site! NexT is a high quality elegant theme for <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo<i class="fa fa-external-link-alt"></i></span>. It is crafted from scratch, with love.</p>
@@ -46,42 +86,35 @@
       </tags>
   </entry>
   <entry>
-    <title>Markdown 語法</title>
-    <url>/2022/09/21/Test/</url>
-    <content><![CDATA[<h1 id="大標題"><a href="#大標題" class="headerlink" title="大標題"></a>大標題</h1><h2 id="次標題"><a href="#次標題" class="headerlink" title="次標題"></a>次標題</h2><h5 id="小標題"><a href="#小標題" class="headerlink" title="小標題"></a>小標題</h5><p><strong>粗體</strong></p>
-<h5 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h5><ul>
-<li>Iten 1</li>
-<li>Item 2<ul>
-<li>Iten 2a</li>
-<li>Item 2b</li>
-</ul>
-</li>
-</ul>
-<h5 id="CheckBox"><a href="#CheckBox" class="headerlink" title="CheckBox"></a>CheckBox</h5><ul>
-<li><input checked="" disabled="" type="checkbox"> This is a complete item</li>
-<li><input disabled="" type="checkbox"> This is an incomplete item</li>
-</ul>
-<h5 id="區塊"><a href="#區塊" class="headerlink" title="區塊"></a>區塊</h5><p><code>Format one word or one line</code></p>
-<span id="more"></span>
+    <title>jupyter notebook config path change</title>
+    <url>/2022/09/21/jupyter-notebook-config-path-change/</url>
+    <content><![CDATA[<h1 id="修改-jupyter-notebook-預設路徑"><a href="#修改-jupyter-notebook-預設路徑" class="headerlink" title="修改 jupyter notebook 預設路徑"></a>修改 jupyter notebook 預設路徑</h1><p>由於每次jupyter notebook開啟時預設路徑都是在 <strong>%USERPROFILE%</strong> ，C槽通常容量都比較小，在座一些數據儲存與運算時數據與程式碼都得分開，倒不如直接將路徑設置在別的硬碟，以下開始更改</p>
+<h2 id="1-生成-jupyter-notebook-config-py"><a href="#1-生成-jupyter-notebook-config-py" class="headerlink" title="1.生成 jupyter_notebook_config.py"></a>1.生成 jupyter_notebook_config.py</h2><p>打開anaconda3的終端機，並輸入以下指令生成 <strong>jupyter_notebook_config.py</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">jupyter notebook --generate-config</span><br></pre></td></tr></table></figure>
 
-<h5 id="普通的程式碼區塊"><a href="#普通的程式碼區塊" class="headerlink" title="普通的程式碼區塊"></a>普通的程式碼區塊</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">alert(&#x27;Hello World!&#x27;);</span><br></pre></td></tr></table></figure>
+<img src="/2022/09/21/jupyter-notebook-config-path-change/jupyter_notebook_config.py.png" class="" title="jupyter_notebook_config.py">
 
-<h5 id="指定語言"><a href="#指定語言" class="headerlink" title="指定語言"></a>指定語言</h5><figure class="highlight objc"><table><tr><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>
+<h2 id="2-修改-jupyter-notebook-預設路徑"><a href="#2-修改-jupyter-notebook-預設路徑" class="headerlink" title="2.修改 jupyter notebook 預設路徑"></a>2.修改 jupyter notebook 預設路徑</h2><p>接著打開檔案總管移至剛剛終端機中回傳的 jupyter_notebook_config.py 位置，並使用文字編輯器等工具編輯它<br>找到 <strong># c.NotebookApp.notebook_dir &#x3D; ‘’</strong> ，將#註解拿掉，並在輸入你要修改的路徑，<code>注意路徑的斜線是**/**</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">c.NotebookApp.notebook_dir = &#x27;修改成你要的位置，注意路徑的斜線是 / &#x27;</span><br></pre></td></tr></table></figure>
 
-<h5 id="在文章中插入-iframe。"><a href="#在文章中插入-iframe。" class="headerlink" title="在文章中插入 iframe。"></a>在文章中插入 iframe。</h5><iframe src="https://www.google.com/" width="[200]" height="[200]" frameborder="0" loading="lazy" allowfullscreen></iframe>
+<img src="/2022/09/21/jupyter-notebook-config-path-change/c.NotebookApp.notebook_dir.png" class="" title="notebook_dir">
 
-<h5 id="在文章中插入指定大小的圖片。"><a href="#在文章中插入指定大小的圖片。" class="headerlink" title="在文章中插入指定大小的圖片。"></a>在文章中插入指定大小的圖片。</h5><p><img src="/./images/Test/gif2.gif" alt="title text"></p>
-<img src="https://sandipanweb.files.wordpress.com/2020/12/0ef15-1z9raf0scbvc9civ9whboog.png" class="[Test]" width="200" height="200" title="title text">
-<!-- ![title text](./images/Test/gif2.gif =100x100)
-<img src="/source/_posts/Test/gif2.gif" class="[Test]" width="200" height="200" title="title text"> -->
+<h2 id="3-修改-jupyter-notebook-捷徑"><a href="#3-修改-jupyter-notebook-捷徑" class="headerlink" title="3.修改 jupyter notebook 捷徑"></a>3.修改 jupyter notebook 捷徑</h2><p>最後需要修改你的 jupyter notebook 捷徑檔，並修改屬性將目標最後的 <strong>“%USERPROFILE%&#x2F;“</strong> 刪除並確認</p>
+<img src="/2022/09/21/jupyter-notebook-config-path-change/jupyter_notebook_path.png" class="" title="jupyter_notebook_path">
 
-<p><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLXR3L2RvY3MvdGFnLXBsdWdpbnM=">https://hexo.io/zh-tw/docs/tag-plugins<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="4-打開你的-jupyter-notebook-開始寫code"><a href="#4-打開你的-jupyter-notebook-開始寫code" class="headerlink" title="4.打開你的 jupyter notebook 開始寫code"></a>4.打開你的 jupyter notebook 開始寫code</h2><p>未修改路徑前</p>
+<img src="/2022/09/21/jupyter-notebook-config-path-change/jupyter_notebook.png" class="" title="jupyter_notebook">
+
+<p>修改完路徑後</p>
+<img src="/2022/09/21/jupyter-notebook-config-path-change/jupyter_notebook_change.png" class="" title="jupyter_notebook_change">
+
+<p>參考文獻：<span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0dlR2VlV29ybGQvYXJ0aWNsZS9kZXRhaWxzLzEwNzA5MTQ3Nw==">https://blog.csdn.net/GeGeeWorld/article/details/107091477<i class="fa fa-external-link-alt"></i></span></p>
 ]]></content>
       <categories>
-        <category>Program</category>
+        <category>IDE</category>
       </categories>
       <tags>
-        <tag>Markdown</tag>
+        <tag>jupyter-notebook , anaconda3</tag>
       </tags>
   </entry>
 </search>
