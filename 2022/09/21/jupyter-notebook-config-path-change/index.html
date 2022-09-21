@@ -22,12 +22,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"sniperleon.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.13.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"default"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.13.0/config.min.js"></script>
 
-    <meta name="description" content="修改 jupyter notebook 預設路徑由於每次jupyter notebook開啟時預設路徑都是在 %USERPROFILE% ，C槽通常容量都比較小，在座一些數據儲存與運算時數據與程式碼都得分開，倒不如直接將路徑設置在別的硬碟，以下開始更改 1.生成 jupyter_notebook_config.py打開anaconda3的終端機，並輸入以下指令生成 jupyter_notebook">
+    <meta name="description" content="修改 jupyter notebook 預設路徑由於每次jupyter notebook開啟時預設路徑都是在 %USERPROFILE% ，C槽通常容量都比較小，在座一些數據儲存與運算時數據與程式碼都得分開，倒不如直接將路徑設置在別的硬碟，以下開始更改">
 <meta property="og:type" content="article">
 <meta property="og:title" content="jupyter notebook config path change">
 <meta property="og:url" content="https://sniperleon.github.io/2022/09/21/jupyter-notebook-config-path-change/index.html">
 <meta property="og:site_name" content="sniperleon&#39;s blog">
-<meta property="og:description" content="修改 jupyter notebook 預設路徑由於每次jupyter notebook開啟時預設路徑都是在 %USERPROFILE% ，C槽通常容量都比較小，在座一些數據儲存與運算時數據與程式碼都得分開，倒不如直接將路徑設置在別的硬碟，以下開始更改 1.生成 jupyter_notebook_config.py打開anaconda3的終端機，並輸入以下指令生成 jupyter_notebook">
+<meta property="og:description" content="修改 jupyter notebook 預設路徑由於每次jupyter notebook開啟時預設路徑都是在 %USERPROFILE% ，C槽通常容量都比較小，在座一些數據儲存與運算時數據與程式碼都得分開，倒不如直接將路徑設置在別的硬碟，以下開始更改">
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://sniperleon.github.io/2022/09/21/jupyter-notebook-config-path-change/jupyter_notebook_config.py.png">
 <meta property="og:image" content="https://sniperleon.github.io/2022/09/21/jupyter-notebook-config-path-change/c.NotebookApp.notebook_dir.png">
@@ -35,7 +35,7 @@
 <meta property="og:image" content="https://sniperleon.github.io/2022/09/21/jupyter-notebook-config-path-change/jupyter_notebook.png">
 <meta property="og:image" content="https://sniperleon.github.io/2022/09/21/jupyter-notebook-config-path-change/jupyter_notebook_change.png">
 <meta property="article:published_time" content="2022-09-21T12:01:48.000Z">
-<meta property="article:modified_time" content="2022-09-21T12:47:41.110Z">
+<meta property="article:modified_time" content="2022-09-21T12:50:42.456Z">
 <meta property="article:author" content="sniperleon">
 <meta property="article:tag" content="jupyter-notebook , anaconda3">
 <meta name="twitter:card" content="summary">
@@ -306,6 +306,8 @@
     
     <div class="post-body" itemprop="articleBody">
         <h1 id="修改-jupyter-notebook-預設路徑"><a href="#修改-jupyter-notebook-預設路徑" class="headerlink" title="修改 jupyter notebook 預設路徑"></a>修改 jupyter notebook 預設路徑</h1><p>由於每次jupyter notebook開啟時預設路徑都是在 <strong>%USERPROFILE%</strong> ，C槽通常容量都比較小，在座一些數據儲存與運算時數據與程式碼都得分開，倒不如直接將路徑設置在別的硬碟，以下開始更改</p>
+<span id="more"></span>
+
 <h2 id="1-生成-jupyter-notebook-config-py"><a href="#1-生成-jupyter-notebook-config-py" class="headerlink" title="1.生成 jupyter_notebook_config.py"></a>1.生成 jupyter_notebook_config.py</h2><p>打開anaconda3的終端機，並輸入以下指令生成 <strong>jupyter_notebook_config.py</strong></p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter notebook --generate-config</span><br></pre></td></tr></table></figure>
 
